@@ -1,0 +1,114 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #82b1ff !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #82b1ff !important;
+  }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.card{
+  left:50%;
+  /* height:500px; */
+  width:700px;
+  /* background:transparent; */
+  padding:0;
+
+}
+
+.card-body{
+  background:transparent;
+}
+
+
+
+.showtable{
+  background-color:blue;
+
+}
+table{
+  height:100px;
+  width:30%;
+  padding:2px
+
+}
+tr.th.td{
+  padding:1px;
+}
+:any-link
+{
+  color: blueviolet;
+
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.middle{
+  left:50;
+  right:50;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
